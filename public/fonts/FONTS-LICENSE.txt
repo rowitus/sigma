@@ -1,0 +1,13 @@
+Self-hosted font files in this folder
+
+fraunces-600.woff2, fraunces-700.woff2
+  Fraunces, by Undercase Type. https://github.com/undercasetype/Fraunces
+inter-400.woff2, inter-500.woff2, inter-600.woff2, inter-700.woff2
+  Inter, by Rasmus Andersson. https://github.com/rsms/inter
+
+Both are licensed under the SIL Open Font License, Version 1.1, which allows using, embedding
+and redistributing the fonts with software. Full licence text: https://openfontlicense.org
+(and the OFL.txt file in each project's repository above).
+
+The files were downloaded once from Google Fonts (latin subset, variable woff2) by
+frontend/scripts/fetch-assets.mjs. The same variable file covers several weights.
