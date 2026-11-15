@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://farmers-helpers.onrender.com/api/:path*"
+    },
+    {
+      "source": "/health",
+      "destination": "https://farmers-helpers.onrender.com/health"
+    },
+    {
+      "source": "/((?!api|health|assets|.*\\.).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
